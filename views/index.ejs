@@ -1,0 +1,20 @@
+<table border="1" id="tblHistorico">
+    <thead>
+        <tr>
+            <th>Estado</th>
+            <th>Horário</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (var i = 0; i < data.length; i++) { %>
+            <tr>
+                <td><%= data[i].estado %></td>
+                <td><%= data[i].horario %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
+
+<script>
+
+</script>
