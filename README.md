@@ -105,7 +105,7 @@ Obs.: Faça atualização da página para visualizar as informações providas p
 
 ### Resultado Final
 
-![Resultado](resultado.png)
+![Resultado](imagem/resultado.png)
 
 ## Referências
 
