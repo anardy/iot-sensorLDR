@@ -55,7 +55,7 @@ pip3 install paho-mqtt
 Após a instalação execute o script com o seguinte comando:
 
 ```bash
-python3 sendor-ldr.py
+python3 sensor-ldr.py
 ```
 
 Obs.: A execução do script é feita a cada **10 segundos**. Portanto a cada 10 segundos teremos o estado de luminosidade do ambiente.
@@ -71,9 +71,9 @@ docker run -itd -p 1883:1883 eclipse-mosquitto
 
 O modelo utilizado pelo padrão MQTT é o de `Publisher/Subscriber`. Neste projeto o Script Python recupera a informação recebido do Sensor LDR e faz uma publicação no Broker MQTT e a Página Web recuperá a informação através de uma assinatura no Broker MQTT.
 
-Um outra opção é utilizar o Broker MQTT em um servidor público provido pelo próprio Mosquitto através do seguinte endereço: `iot.eclipse.org` na porta `1883`. Para maiores informações deste servidor público acesse o endereço: https://iot.eclipse.org/getting-started#sandboxes[https://iot.eclipse.org/getting-started#sandboxes]
+Um outra opção é utilizar o Broker MQTT em um servidor público provido pelo próprio Mosquitto através do seguinte endereço: `iot.eclipse.org` na porta `1883`. Para maiores informações deste servidor público acesse o endereço: [IoT Eclipse](https://iot.eclipse.org/getting-started#sandboxes)
 
-Ainda existe outra opção que é instalar o Mosquitto. Inclusive é possível realizar a instalação no próprio Raspberry Pi. Para realizar a instalação acesso o endereço: https://mosquitto.org/download/[https://mosquitto.org/download/]
+Ainda existe outra opção que é instalar o Mosquitto. Inclusive é possível realizar a instalação no próprio Raspberry Pi. Para realizar a instalação acesso o endereço: [Instalação Mosquitto](https://mosquitto.org/download/[https://mosquitto.org/download/)
 
 Obs.: É interessante que cada camada esteja em uma máquina separada para que seja visto a integração entre as camadas do projeto.
 
@@ -109,4 +109,4 @@ Obs.: Faça atualização da página para visualizar as informações providas p
 
 ## Referências
 
-Raspberry Pi fridge monitor[https://www.raspberrypi.org/magpi/raspberry-pi-fridge-monitor/]
+[Raspberry Pi fridge monitor](https://www.raspberrypi.org/magpi/raspberry-pi-fridge-monitor/)
